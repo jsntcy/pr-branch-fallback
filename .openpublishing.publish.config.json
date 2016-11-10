@@ -5,7 +5,7 @@
   "need_preview_pull_request": true,
   "docsets_to_publish": [
     {
-      "docset_name": "docset1",
+      "docset_name": "docset1-jsntcy",
       "build_source_folder": "docset1",
       "build_output_subfolder": "azure-test/docset1/base",
       "locale": "en-us",
