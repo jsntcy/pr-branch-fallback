@@ -31,6 +31,5 @@
       "branch_mapping": {}
     }
   ],
-  "need_generate_pdf_url_template": false,
-  "package_version": "1.31.12"
+  "need_generate_pdf_url_template": false
 }
