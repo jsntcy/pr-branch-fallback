@@ -8,21 +8,22 @@
       "build_source_folder": "docset1",
       "build_output_subfolder": "azure-test/docset1/base",
       "locale": "en-us",
-      "version": 0,
+      "monikers": [],
       "open_to_public_contributors": true,
       "type_mapping": {
         "Conceptual": "Content",
         "ManagedReference": "Content",
         "RestApi": "Content"
       },
-      "build_entry_point": "docs",
-      "template_folder": "_themes"
+      "version": 0
     }
   ],
   "notification_subscribers": [],
   "branches_to_filter": [],
   "skip_source_output_uploading": false,
   "need_preview_pull_request": true,
+  "enable_push_aggregation": true,
+  "enable_pull_request_aggregation": true,
   "dependent_repositories": [
     {
       "path_to_root": "_themes",
@@ -31,7 +32,5 @@
       "branch_mapping": {}
     }
   ],
-  "need_generate_pdf_url_template": false,
-  "enable_push_aggregation": true,
-  "enable_pull_request_aggregation": true
+  "need_generate_pdf_url_template": false
 }
