@@ -1,36 +1,32 @@
 {
-  "build_entry_point": "docs",
-  "need_generate_pdf": false,
-  "need_generate_intellisense": false,
-  "docsets_to_publish": [
-    {
-      "docset_name": "docset1-jsntcy",
-      "build_source_folder": "docset1",
-      "build_output_subfolder": "azure-test/docset1/base",
-      "locale": "en-us",
-      "monikers": [],
-      "open_to_public_contributors": true,
-      "type_mapping": {
-        "Conceptual": "Content",
-        "ManagedReference": "Content",
-        "RestApi": "Content"
-      },
-      "version": 0
-    }
-  ],
-  "notification_subscribers": [],
-  "branches_to_filter": [],
-  "skip_source_output_uploading": false,
-  "need_preview_pull_request": true,
-  "enable_push_aggregation": true,
-  "enable_pull_request_aggregation": true,
-  "dependent_repositories": [
-    {
-      "path_to_root": "_themes",
-      "url": "https://github.com/Microsoft/templates.docs.msft",
-      "branch": "master",
-      "branch_mapping": {}
-    }
-  ],
-  "need_generate_pdf_url_template": false
+    "build_entry_point": "docs",
+    "need_generate_pdf": false,
+    "need_generate_intellisense": false,
+    "docsets_to_publish": [{
+        "docset_name": "docset1-jsntcy",
+        "build_source_folder": "docset1/pr-branch-fallback",
+        "build_output_subfolder": "azure-test/docset1/base",
+        "locale": "en-us",
+        "monikers": [],
+        "open_to_public_contributors": true,
+        "type_mapping": {
+            "Conceptual": "Content",
+            "ManagedReference": "Content",
+            "RestApi": "Content"
+        },
+        "version": 0
+    }],
+    "notification_subscribers": [],
+    "branches_to_filter": [],
+    "skip_source_output_uploading": false,
+    "need_preview_pull_request": true,
+    "enable_push_aggregation": true,
+    "enable_pull_request_aggregation": true,
+    "dependent_repositories": [{
+        "path_to_root": "_themes",
+        "url": "https://github.com/Microsoft/templates.docs.msft",
+        "branch": "master",
+        "branch_mapping": {}
+    }],
+    "need_generate_pdf_url_template": false
 }
