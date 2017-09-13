@@ -4,7 +4,7 @@
     "need_generate_intellisense": false,
     "docsets_to_publish": [{
         "docset_name": "docset1-jsntcy",
-        "build_source_folder": "docset1",
+        "build_source_folder": "docset1/pr-branch-fallback",
         "build_output_subfolder": "azure-test/docset1/base",
         "locale": "en-us",
         "monikers": [],
